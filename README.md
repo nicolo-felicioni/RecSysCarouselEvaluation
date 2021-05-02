@@ -98,33 +98,6 @@ It is able to compute the following similarities: Cosine, Adjusted Cosine, Jacca
 ```
 
 
-### Data Reader and splitter
-DataReader objects read the dataset from its original file and save it as a sparse matrix.
-
-DataSplitter objects take as input a DataReader and split the corresponding dataset in the chosen way.
-At each step the data is automatically saved in a folder, though it is possible to prevent this by setting _save_folder_path = False_ when calling _load_data_.
-If a DataReader or DataSplitter is called for a dataset which was already processed, the saved data is loaded.
-
-DataPostprocessing can also be applied between the dataReader and the dataSplitter and nested in one another.
-
-When you have bilt the desired combination of dataset/preprocessing/split, get the data calling _load_data_.
-
-```python
-dataset = Movielens1MReader()
-
-dataset = DataPostprocessing_K_Cores(dataset, k_cores_value=25)
-dataset = DataPostprocessing_User_sample(dataset, user_quota=0.3)
-dataset = DataPostprocessing_Implicit_URM(dataset)
-
-dataSplitter = DataSplitter_Warm_k_fold(dataset)
-
-dataSplitter.load_data()
-
-URM_train, URM_validation, URM_test = dataSplitter.get_holdout_split()
-```
-
-
-
 
 
 ## Run the experiments
