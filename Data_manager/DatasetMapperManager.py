@@ -1,7 +1,7 @@
 """
 Created on 19/06/2020
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 from Data_manager.Dataset import Dataset

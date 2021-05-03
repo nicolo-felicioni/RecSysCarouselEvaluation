@@ -3,7 +3,7 @@
 """
 Created on 02/03/18
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 # Check whether they work correctly

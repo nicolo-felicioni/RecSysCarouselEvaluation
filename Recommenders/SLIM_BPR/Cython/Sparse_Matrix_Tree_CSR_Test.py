@@ -3,7 +3,7 @@
 """
 Created on 27/09/17
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 import subprocess

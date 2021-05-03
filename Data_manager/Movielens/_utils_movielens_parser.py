@@ -3,7 +3,7 @@
 """
 Created on 26/11/19
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 import pandas as pd

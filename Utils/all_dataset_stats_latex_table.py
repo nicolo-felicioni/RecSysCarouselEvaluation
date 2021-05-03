@@ -1,7 +1,7 @@
 """
 Created on 16/06/2020
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 import os

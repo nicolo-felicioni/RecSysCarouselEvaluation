@@ -3,7 +3,7 @@
 """
 Created on 18/02/19
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 import matplotlib

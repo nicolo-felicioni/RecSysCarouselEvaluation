@@ -3,7 +3,7 @@
 """
 Created on 14/06/18
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 from Recommenders.BaseMatrixFactorizationRecommender import BaseMatrixFactorizationRecommender

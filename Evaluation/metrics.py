@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema, Massimo Quadrana
 """
 
 

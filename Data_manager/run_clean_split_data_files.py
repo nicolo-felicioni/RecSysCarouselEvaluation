@@ -3,7 +3,7 @@
 """
 Created on 26/11/18
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 import os, shutil
 from Data_manager.DataReader import DataReader

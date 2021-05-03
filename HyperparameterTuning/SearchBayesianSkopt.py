@@ -3,7 +3,7 @@
 """
 Created on 14/12/18
 
-@author: anonymous for blind review
+@author: Emanuele Chioso, Maurizio Ferrari Dacrema
 """
 
 from skopt import gp_minimize

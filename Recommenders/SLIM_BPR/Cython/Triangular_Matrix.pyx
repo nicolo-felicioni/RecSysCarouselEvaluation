@@ -1,7 +1,7 @@
 """
 Created on 04/01/18
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 #cython: boundscheck=False

@@ -3,7 +3,7 @@
 """
 Created on 15/04/19
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 

@@ -3,7 +3,7 @@
 """
 Created on 19/06/2019
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 from Recommenders.Recommender_utils import get_unique_temp_folder

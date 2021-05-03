@@ -3,7 +3,7 @@
 """
 Created on 22/11/17
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 import os, multiprocessing

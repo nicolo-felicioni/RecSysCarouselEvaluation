@@ -3,7 +3,7 @@
 """
 Created on 16/09/2017
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 from Recommenders.BaseRecommender import BaseRecommender as _BaseRecommender

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-@author: anonymous for blind review
+@author: Cesare Bernardis
 """
 
 import numpy as np

@@ -3,7 +3,7 @@
 """
 Created on 04/06/2019
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 from Recommenders.DataIO import DataIO

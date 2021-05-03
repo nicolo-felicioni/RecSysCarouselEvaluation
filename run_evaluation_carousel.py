@@ -1,7 +1,7 @@
 """
 Created on 02/10/2020
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 from EvaluatorMultipleCarousels import EvaluatorMultipleCarousels
 from Recommenders.NonPersonalizedRecommender import TopPopYearRange, TopPopFeature

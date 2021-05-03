@@ -3,7 +3,7 @@
 """
 Created on 06/07/2018
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 import time, sys

@@ -3,7 +3,7 @@
 """
 Created on 27/04/2019
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 import os, json, zipfile, shutil, platform
@@ -40,12 +40,13 @@ class DataIO(object):
     # _MAX_PATH_LENGTH_LINUX = 4096
     _MAX_PATH_LENGTH_WINDOWS = 255
 
-    def __init__(self, folder_path):
+    def __init__(self, folder_path, multithread = True):
         super(DataIO, self).__init__()
 
         self._is_windows = platform.system() == "Windows"
 
         self.folder_path = folder_path
+        self._multithread = multithread
         self._key_string_alert_done = False
 
         # if self._is_windows:
@@ -65,7 +66,11 @@ class DataIO(object):
         # Ignore the .zip extension
         file_name = file_name[:-4]
 
-        current_temp_folder = "{}{}_{}/".format(self.folder_path, self._DEFAULT_TEMP_FOLDER, file_name)
+        if not self._multithread:
+            current_temp_folder = "{}{}_{}/".format(self.folder_path, self._DEFAULT_TEMP_FOLDER, file_name)
+        else:
+            current_temp_folder = "{}{}_pid_{}_{}/".format(self.folder_path, self._DEFAULT_TEMP_FOLDER, os.getpid(), file_name)
+
 
         if os.path.exists(current_temp_folder):
             self._print("Folder {} already exists, could be the result of a previous failed save attempt or multiple saver are active in parallel. " \

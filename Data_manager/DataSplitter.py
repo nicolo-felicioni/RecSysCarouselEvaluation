@@ -3,7 +3,7 @@
 """
 Created on 30/11/18
 
-@author: anonymous for blind review
+@author: Maurizio Ferrari Dacrema
 """
 
 import traceback, os

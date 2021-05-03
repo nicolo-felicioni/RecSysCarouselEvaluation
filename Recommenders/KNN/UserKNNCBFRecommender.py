@@ -3,7 +3,7 @@
 """
 Created on 13/03/19
 
-@author: anonymous for blind review
+@author: Simone Boglio
 """
 
 from Recommenders.Recommender_utils import check_matrix
