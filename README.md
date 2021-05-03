@@ -1,6 +1,6 @@
 # Carousel Evaluation for Recommender Systems
 
-This is the repository with the code for the paper "A Methodology for the Offline Evaluation of RecommenderSystems in a User Interface with Multiple Carousels", published at UMAP Late-Breaking Results 2021.
+This is the repository with the code for the paper "A Methodology for the Offline Evaluation of RecommenderSystems in a User Interface with Multiple Carousels", published at UMAP Late-Breaking Results 2021, available [here](MethodologyOfflineEvalRecSysCarousels.pdf).
 
 For information on the requirements and how to install this repository, see the following [Installation](#Installation) section, for information on the structure of the repo and the recommender models see the [Project structure](#Project-structure) section.
 Istructions on how to run the experiments are in section [Run the experiments](#Run-the-experiments).
