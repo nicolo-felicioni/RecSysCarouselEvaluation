@@ -111,4 +111,4 @@ After the installation is complete you can run the experiments.
 
 
 ## Acknowledgement
-This repository is baded upon this project [this project](https://github.com/MaurizioFD/RecSys2019_DeepLearning_Evaluation), released under a AGPL-3.0 License.
+This repository is baded upon [this project](https://github.com/MaurizioFD/RecSys2019_DeepLearning_Evaluation), released under a AGPL-3.0 License.
